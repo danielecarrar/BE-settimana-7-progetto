@@ -22,7 +22,7 @@ public class CercaNumero extends HttpServlet {
         super();
     }
 
-	
+	//da modificare
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
 		
