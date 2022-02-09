@@ -78,7 +78,7 @@ public class RubricaEjb {
 //    	}
 //    	return numeri;
 //    }
-    //cerca per numero, query non funzionante :/
+    //cerca per numero
     public List<NumTelefono> getByNumero(String numero) {
     	Query q = em.createQuery("select n from NumTelefono n join Contatto c where n.numero = ?1");
     	q.setParameter(1, numero);
